@@ -7,7 +7,11 @@ Security camera that uploads its captured images to dropbox when alert auto-trig
 Hardware Diagram Block
 =================
 ```
-[Sensor PIR] ======> [ ARDUINO ] 
+
+                                          [Webcam]
+                                             |
+                                             |
+[Sensor PIR] ======> [ ARDUINO ]             V
 [Password Input]===> [ ARDUINO ]  ====> [SBC/Computer] 
-                         [Webcam] ====> [SBC/Computer] ====> Dropbox
+                                        [SBC/Computer] ====> Dropbox
 ```
