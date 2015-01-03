@@ -8,10 +8,10 @@ Hardware Diagram Block
 =================
 ```
 
-                                          [Webcam]
-                                             |
-                                             |
-[Sensor PIR] ======> [ ARDUINO ]             V
-[Password Input]===> [ ARDUINO ]  ====> [SBC/Computer] 
-                                        [SBC/Computer] ====> Dropbox
+                                                       [Webcam]
+                                                           |
+                                                           |
+                         [PIR] ==> [ ARDUINO ]             V
+[Password Input]=================> [ ARDUINO ]  ====> [SBC/Computer] 
+                                                      [SBC/Computer] ====> Dropbox
 ```
