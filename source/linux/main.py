@@ -9,8 +9,8 @@ import cv2.cv as cv
 def elinsGetDate():
 	return os.popen("date +'%Y%m%d_%H%M%S'").read()[:-1]
 kacau = 0
-APP_KEY = 'a7s8de0noc4cbaj' #-- your app-key. use your own so you can checkout your result
-APP_SECRET = 'yzvo6uyzpr3eyal'
+APP_KEY = 'a7s8de0ac4cbaj' #-- your app-key. use your own so you can checkout your result
+APP_SECRET = 'yzvo6uyaeyal'
 ACCESS_TYPE = 'dropbox'
 
 def main():
